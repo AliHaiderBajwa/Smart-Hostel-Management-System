@@ -3,7 +3,7 @@
 # 🏠 Smart Hostel Management System
 ### Multi-Role Desktop Application
 
-**Object-Oriented Programming Project · FAST-NUCES Islamabad · Spring 2026**
+**Software Design & Architecture (SDA) Course Project · FAST-NUCES Islamabad · Spring 2026**
 
 ![Java](https://img.shields.io/badge/Java-17+-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![JavaFX](https://img.shields.io/badge/JavaFX-UI-4a90d9?style=for-the-badge)

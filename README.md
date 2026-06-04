@@ -17,17 +17,17 @@
 
 ---
 
-## 👤 Author
+## 👤👤 Team
 
-**Ali Haider Bajwa** — 24i-3102 &nbsp;|&nbsp; SE-C &nbsp;|&nbsp; FAST-NUCES, Islamabad
+| Ali Haider | Taimoor Khalid | Ashar Ahmed |
 
 ---
 
 ## 📌 Overview
 
-Smart Hostel Management System is a desktop application that digitizes the complete operational workflow of a university hostel. It supports five user roles — each with a dedicated dashboard and restricted access to only their relevant modules.
+Smart Hostel Management System is a desktop application that digitizes the complete operational workflow of a university hostel. It supports five user roles - each with a dedicated dashboard and restricted access to only their relevant modules.
 
-The system handles everything from room allocation and leave management to mess billing, complaint tracking, penalty enforcement, and financial reporting — all through a modern JavaFX UI.
+The system handles everything from room allocation and leave management to mess billing, complaint tracking, penalty enforcement, and financial reporting - all through a modern JavaFX UI.
 
 ---
 
@@ -48,12 +48,12 @@ Authentication routes each user to their correct dashboard automatically via `Na
 ## ✨ Features
 
 ### 🏗 Room Management
-- 24 pre-seeded rooms across 4 blocks (A, B, C, D) — Male blocks: A & C, Female blocks: B & D
+- 24 pre-seeded rooms across 4 blocks (A, B, C, D) - Male blocks: A & C, Female blocks: B & D
 - Room types: Single, Double, Triple, Quad with capacity tracking
 - Real-time availability status: Available / Partially Occupied / Full
 - Room allocation by manager with student assignment
 - Room change requests submitted by students, processed by manager
-- `CheckRoomAvailabilityView` — filterable room availability grid
+- `CheckRoomAvailabilityView` - filterable room availability grid
 
 ### 📋 Leave Management
 - Students submit leave requests with dates and reason via `RequestLeaveView`
@@ -68,8 +68,8 @@ Authentication routes each user to their correct dashboard automatically via `Na
 
 ### 💰 Billing & Finance
 - Monthly mess bills generated per student: base charge ₨8,000 minus leave deductions plus penalties
-- `GenerateMonthlyBillView` — bulk bill generation for all students in a period
-- `FinancialStatementView` — per-student breakdown (base charge, deductions, penalties, outstanding)
+- `GenerateMonthlyBillView` - bulk bill generation for all students in a period
+- `FinancialStatementView` - per-student breakdown (base charge, deductions, penalties, outstanding)
 - Mark bills as Paid / Unpaid
 - `AccountsDashboard` shows total revenue, bills generated, and pending payments
 
@@ -79,7 +79,7 @@ Authentication routes each user to their correct dashboard automatically via `Na
 
 ### 🍽 Mess & Attendance
 - Mess supervisor marks daily meal attendance per student via `MarkAttendanceView`
-- `FoodConsumptionReportView` — aggregate food consumption report by date range
+- `FoodConsumptionReportView` - aggregate food consumption report by date range
 - Attendance data feeds into leave deduction calculations
 
 ### 📜 Policy Management
@@ -95,7 +95,7 @@ The project follows a clean **3-layer MVC + DAO** structure:
 src/hostel/
 ├── ui/              ← JavaFX Views & Dashboards (presentation layer)
 │   ├── Main.java                      Login screen (split-panel layout)
-│   ├── NavigationManager.java         Scene router — maps role → dashboard
+│   ├── NavigationManager.java         Scene router - maps role → dashboard
 │   ├── StudentDashboard.java
 │   ├── ManagerDashboard.java
 │   ├── MessDashboard.java
@@ -123,7 +123,7 @@ src/hostel/
 │   └── Policy.java
 │
 ├── dao/             ← Data Access Object interfaces (DB layer stubs)
-│   └── [9 DAO interfaces — AttendanceDAO, BillingDAO, RoomDAO, etc.]
+│   └── [9 DAO interfaces - AttendanceDAO, BillingDAO, RoomDAO, etc.]
 │
 └── util/
     └── DBConnection.java              Database connection utility
@@ -184,4 +184,4 @@ Hostel_Management_System/
 
 ## 📄 License
 
-Developed as an academic project at FAST-NUCES Islamabad. Free to reference for educational purposes.
+Developed as an academic project at FAST-NUCES Islamabad. Free to use or learn from this. Credit appreciated but not required.
